@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  text-rendering: geometricPrecision;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+h2{
+  font-size: x-large;
+  line-height: 2.1;
+  font-weight: 700;
+}
+
+h3{
+  font-size: larger;
+  line-height: 2.1;
+  font-weight: 700;
+}
